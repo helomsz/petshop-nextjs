@@ -1,4 +1,4 @@
-# 🐾 Petshop Dev
+# Petshop Dev 🐶🐾
 
 Petshop Dev é um projeto de estudo desenvolvido com **Next.js**, com o objetivo de praticar conceitos modernos do framework e construir uma **landing page elegante, funcional e responsiva** para um petshop fictício.
 
