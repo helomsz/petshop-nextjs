@@ -1,36 +1,100 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🐾 Petshop Dev
 
-## Getting Started
+Petshop Dev é um projeto de estudo desenvolvido com **Next.js**, com o objetivo de praticar conceitos modernos do framework e construir uma **landing page elegante, funcional e responsiva** para um petshop fictício.
 
-First, run the development server:
+A proposta do projeto é simular uma landing page real, pensada para apresentar serviços, depoimentos e informações de uma loja ou produto de forma clara, moderna e agradável ao usuário.
+
+---
+
+## ✨ Visão Geral
+
+O projeto foi desenvolvido com foco em:
+- Estrutura moderna de componentes
+- Boa experiência do usuário (UX)
+- Animações suaves e não intrusivas
+- Estilo visual clean e profissional
+
+Ideal para servir como base de estudo, portfólio ou inspiração para landing pages comerciais.
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- **Next.js** — Framework React para aplicações modernas
+- **React** — Biblioteca base para construção da interface
+- **Tailwind CSS** — Estilização utilitária e responsiva
+- **AOS (Animate On Scroll)** — Animações baseadas no scroll
+- **shadcn/ui** — Componentes reutilizáveis e acessíveis
+- **Lucide React & Phosphor Icons** — Ícones modernos
+- **Embla Carousel** — Carrosséis leves e performáticos
+
+---
+
+## 🎯 Funcionalidades
+
+- Navbar fixa e responsiva
+- Hero section com CTA
+- Seção de serviços com carrossel
+- Depoimentos de clientes
+- Footer com marcas parceiras e redes sociais
+- Animações suaves 
+- Layout totalmente responsivo (mobile-first)
+
+---
+
+## 🎨 Estilo e Design
+
+- Design moderno inspirado em interfaces clean
+- Uso de glassmorphism e sombras suaves
+- Paleta de cores amigável
+- Botões com interações sutis (hover e transições)
+- Tipografia pensada para leitura e hierarquia visual
+
+---
+
+## 📚 Objetivo do Projeto
+
+Este projeto foi criado **exclusivamente para fins de estudo e prática do Next.js**, explorando:
+- Estrutura de pastas do App Router
+- Componentização
+- Estilização com Tailwind
+- Integração de bibliotecas externas
+- Boas práticas de front-end
+
+Não possui fins comerciais.
+
+---
+
+## 🛠️ Como rodar o projeto localmente
 
 ```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/petshop-dev.git
+
+# Acesse a pasta do projeto
+cd petshop-dev
+
+# Instale as dependências
+npm install
+# ou
+yarn install
+
+# Rode o projeto
 npm run dev
-# or
+# ou
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+````
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+O projeto estará disponível em:
+👉 `http://localhost:3000`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## 👩‍💻 Autora
 
-To learn more about Next.js, take a look at the following resources:
+Desenvolvido por **Heloisa Militão**
+Projeto de estudo para aprimoramento em **Next.js e Front-end moderno**.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
