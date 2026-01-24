@@ -14,8 +14,6 @@ O projeto foi desenvolvido com foco em:
 - Animações suaves e não intrusivas
 - Estilo visual clean e profissional
 
-Ideal para servir como base de estudo, portfólio ou inspiração para landing pages comerciais.
-
 ---
 
 ## 🚀 Tecnologias Utilizadas
