@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 export function Hero() {
   return (
-    <section className="bg-[#E84C3D] text-white relative overflow-hidden">
+    <section id="hero" className="bg-[#E84C3D] text-white relative overflow-hidden pt-24">
 
       <div>
         <Image
@@ -26,7 +26,7 @@ export function Hero() {
 
           <div className="space-y-6">
             <h1
-              className="text-3xl md:text-4xl lg:text-5xl font-bold leading-10"
+              className="text-3xl md:text-4xl lg:text-5xl font-bold leading-14"
               data-aos="fade-down"
             >
               Seu pet merece cuidado, carinho e atenção especial.
@@ -41,15 +41,15 @@ export function Hero() {
               data-aos-delay="500"
               target='_blank'
               href={`https://wa.me/556799998800?text=Olá vim pelo site e gostaria de mais informações`}
-              className="bg-green-500 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2"
-            >
+              className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-green-500 text-white font-mediu shadow-[0_12px_30px_rgba(34,197,94,0.45)]
+                transition-all duration-300 ease-out hover:bg-green-600 hover:-translate-y-1 hover:shadow-[0_18px_45px_rgba(34,197,94,0.6)] active:translate-y-0">
               <WhatsappLogo className='w-5 h-5' />
               Contato via WhatsApp
             </a>
 
             <div className="mt-8">
               <p className="text-sm mb-4">
-                <b className="bg-black text-white px-2 py-1 rounded-md">5%</b> de desconto na primeira compra.
+                <b className="bg-black text-white px-2 py-1 rounded-full">5%</b> de desconto na primeira compra.
               </p>
 
             </div>

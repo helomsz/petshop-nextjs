@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Montserrat } from "next/font/google";
 import "./globals.css";
+import { AosInit } from "./_components/aos-init";
 
 const montserrat = Montserrat({
   subsets: ['latin'],
@@ -32,6 +33,7 @@ export default function RootLayout({
     <html lang="pt-BR">
       <body className={montserrat.variable}>
         {children}
+        <AosInit />
       </body>
     </html>
   );
