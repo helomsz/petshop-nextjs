@@ -4,6 +4,10 @@ Petshop Dev é um projeto de estudo desenvolvido com **Next.js**, com o objetivo
 
 A proposta do projeto é simular uma landing page real, pensada para apresentar serviços, depoimentos e informações de uma loja ou produto de forma clara, moderna e agradável ao usuário.
 
+<p align="left">
+  <img src="https://github.com/helomsz/petshop-nextjs/blob/main/assets/petshop.png" width="900"/>
+</p>
+
 ---
 
 ## ✨ Visão Geral
