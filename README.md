@@ -73,9 +73,6 @@ Não possui fins comerciais.
 # Clone o repositório
 git clone https://github.com/seu-usuario/petshop-dev.git
 
-# Acesse a pasta do projeto
-cd petshop-dev
-
 # Instale as dependências
 npm install
 # ou
